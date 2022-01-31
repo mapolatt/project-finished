@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container-x {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    text-align: center;
+    background: #000;
+}
+
+.flex-container-inner-x {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.flex-container-inner-2-x {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.flex-item-left-x {
+    background-color: #000;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right-x {
+    background-color: #000;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-lefter-x {
+    background-color: #000;
+    padding: 10px;
+    flex: 100%;
+    text-align: start;
+}
+
+.flex-item-midder-1-x {
+    background-color: #000;
+    padding: 10px;
+    flex: 100%;
+}
+
+.flex-ii-x {
+    background: #000;
+    flex: 50%;
+    text-align: start;
+}
+
+.flex-item-midder-2-x {
+    background-color: #000;
+    padding: 10px;
+    flex: 100%;
+}
+
+.flex-vi-x {
+    background: #000;
+    flex: 16%;
+    text-align: start;
+}
+
+.flex-item-righter-x {
+    background-color: #000;
+    padding: 10px;
+    flex: 100%;
+    text-align: start;
+}
+
+.flex-item-lefter-2-x {
+    background-color: #000;
+    padding: 10px;
+    flex: 100%;
+}
+
+.flex-item-righter-2-x {
+    background-color: #000;
+    padding: 10px;
+    flex: 100%;
+}
+
+.flex-item-righter-3-x {
+    background-color: #000;
+    padding: 10px;
+    flex: 100%;
+}
+
+@media (max-width:500px) {
+
+    .flex-item-left-x,
+    .flex-item-right-x {
+        flex: 100%;
+    }
+
+    .flex-item-lefter-x,
+    .flex-item-righter-x {
+        flex: 100%;
+    }
+
+    #g-pay {
+        text-align: left !important;
+    }
+
+    #appstore-bdg {
+        text-align: left !important;
+    }
+
+    #getapp {
+        text-align: left !important;
+    }
+
+    .flex-vi-x {
+        background: #000;
+        flex: 25%;
+    }
+}
+
+@media(max-width:820px) {
+    .flex-vi-x {
+        background: #000;
+        flex: 25%;
+    }
+}

@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.flex-container-r {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-left-k {
+    background-color: #d5fafc;
+    padding: 10px;
+    flex: 100%;
+}
+
+.flex-item-right-k {
+    background-color: #d5fafc;
+    padding: 10px;
+    flex: 50%;
+}
+
+.gg {
+    text-align: left;
+}
+
+.gh {
+    text-align: left;
+}
+
+.ga {
+    text-align: left;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-item-right-k {
+        flex: 100%;
+    }
+
+    .flex-item-left-k {
+        flex: 50%;
+    }
+
+}
+
+@media (max-width: 820px) {
+    .flex-item-right-k {
+        flex: 100%;
+    }
+
+    .flex-item-left-k {
+        flex: 100%;
+    }
+    .gg {
+        text-align: left;
+    }
+    .gh {
+        text-align: left;
+    }
+
+    #destroy-needed {
+        display: none !important;
+    }
+
+    #margin-topped-plus {
+        margin-top: 0rem !important;
+    }
+
+    #margin-topped-minus {
+        margin-top: 0rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .gg {
+        text-align: left;
+    }
+
+    .gh {
+        text-align: left;
+    }
+    #d5fafc,
+    #d5fafc-a,
+    #svg-even-odd,
+    #d5fafc-b{
+        margin-left: 0rem !important;
+    }
+}
+@media (max-width: 500px) {
+    #d5fafc,
+    #d5fafc-a,
+    #svg-even-odd{
+        margin-left: 0rem !important;
+    }
+}
